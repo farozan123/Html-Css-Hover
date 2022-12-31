@@ -1,0 +1,73 @@
+.container{
+   
+        background-image: url(https://images.unsplash.com/photo-1618565917118-723caea78e02?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+        height: 100vh;
+        background-size: cover;
+        font-family: 'Cedarville Cursive', cursive;
+    
+}
+
+li{
+
+    display: inline-block;
+    list-style: none;
+    margin: 25px 14px;
+    font-size: 20px;
+    color: burlywood;
+
+}
+/* Pseudo Property */
+li a {
+  text-decoration: none;
+  color: #fff;
+  
+}
+li a:hover{
+  cursor: pointer;
+  color: red;
+  transition: .5s;
+  font-size: 30px;
+}
+section{
+    color: #fff;
+    text-align: center;
+    margin: 10px 110px;
+    line-height: 45px;
+    font-size: 30px;
+}
+ul{
+  text-align: center;
+}
+.btn{
+  margin-top: 25px;
+  padding: 12px 20px;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 5px solid transparent;
+  /* background-color: transparent; */
+
+}
+/* Hover */
+/* Pseudo Property */
+.btn:hover{
+  cursor: pointer;
+  background-color: red;
+  font-size: 18px ;
+  transition: .5s;
+}
+.icon:hover{
+  cursor: pointer;
+  color: blue;
+  transition: .5s;
+}
+.icon1:hover{
+  cursor: pointer;
+  color: green;
+  transition: .5s;
+}
+.icon2:hover{
+  cursor: pointer;
+  color: aqua;
+  transition: .9s;
+}
